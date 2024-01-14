@@ -42,11 +42,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-service \
     bootctrl.msm8953 \
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.msm8953 \
-    libgptutils \
-    libz
-
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
